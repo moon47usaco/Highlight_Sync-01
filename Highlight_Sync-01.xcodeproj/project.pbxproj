@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350C5A52CE730CE6C83A8AA8 /* Pods_Highlight_Sync_01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3A62131840AC17CA284188 /* Pods_Highlight_Sync_01.framework */; };
+		CE1DC0071D83E58600E9D920 /* DataValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1DC0061D83E58600E9D920 /* DataValues.swift */; };
+		CEFD8A661D642A360098A898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD8A651D642A360098A898 /* AppDelegate.swift */; };
+		CEFD8A681D642A360098A898 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD8A671D642A360098A898 /* ViewController.swift */; };
+		CEFD8A6A1D642A360098A898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFD8A691D642A360098A898 /* Assets.xcassets */; };
+		CEFD8A6D1D642A360098A898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFD8A6B1D642A360098A898 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFD8A741D642A360098A898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFD8A5A1D642A360098A898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFD8A611D642A360098A898;
+			remoteInfo = "JSON_Test-03";
+		};
+		CEFD8A7F1D642A360098A898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFD8A5A1D642A360098A898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFD8A611D642A360098A898;
+			remoteInfo = "JSON_Test-03";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A3A62131840AC17CA284188 /* Pods_Highlight_Sync_01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Highlight_Sync_01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8377C6410BC706075657003 /* Pods-Highlight_Sync-01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Highlight_Sync-01.release.xcconfig"; path = "Pods/Target Support Files/Pods-Highlight_Sync-01/Pods-Highlight_Sync-01.release.xcconfig"; sourceTree = "<group>"; };
+		CE1DC0061D83E58600E9D920 /* DataValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataValues.swift; sourceTree = "<group>"; };
+		CEFD8A621D642A360098A898 /* Highlight_Sync-01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Highlight_Sync-01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFD8A651D642A360098A898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFD8A671D642A360098A898 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFD8A691D642A360098A898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFD8A6C1D642A360098A898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFD8A6E1D642A360098A898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFD8A731D642A360098A898 /* Highlight_Sync-01.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Highlight_Sync-01.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFD8A7E1D642A360098A898 /* Highlight_Sync-01.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Highlight_Sync-01.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21525E6AA938D2E976144F0 /* Pods-Highlight_Sync-01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Highlight_Sync-01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Highlight_Sync-01/Pods-Highlight_Sync-01.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFD8A5F1D642A360098A898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				350C5A52CE730CE6C83A8AA8 /* Pods_Highlight_Sync_01.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD8A701D642A360098A898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD8A7B1D642A360098A898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		755FF1C1943254B18E23F82A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D21525E6AA938D2E976144F0 /* Pods-Highlight_Sync-01.debug.xcconfig */,
+				C8377C6410BC706075657003 /* Pods-Highlight_Sync-01.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB404BFF2AEA0816CCBFFCAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A3A62131840AC17CA284188 /* Pods_Highlight_Sync_01.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFD8A591D642A360098A898 = {
+			isa = PBXGroup;
+			children = (
+				CEFD8A641D642A360098A898 /* JSON_Test-05 */,
+				CEFD8A631D642A360098A898 /* Products */,
+				755FF1C1943254B18E23F82A /* Pods */,
+				CB404BFF2AEA0816CCBFFCAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFD8A631D642A360098A898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD8A621D642A360098A898 /* Highlight_Sync-01.app */,
+				CEFD8A731D642A360098A898 /* Highlight_Sync-01.xctest */,
+				CEFD8A7E1D642A360098A898 /* Highlight_Sync-01.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFD8A641D642A360098A898 /* JSON_Test-05 */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD8A651D642A360098A898 /* AppDelegate.swift */,
+				CEFD8A671D642A360098A898 /* ViewController.swift */,
+				CE1DC0061D83E58600E9D920 /* DataValues.swift */,
+				CEFD8A691D642A360098A898 /* Assets.xcassets */,
+				CEFD8A6B1D642A360098A898 /* Main.storyboard */,
+				CEFD8A6E1D642A360098A898 /* Info.plist */,
+			);
+			name = "JSON_Test-05";
+			path = "Highlight_Sync-01";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFD8A611D642A360098A898 /* Highlight_Sync-01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFD8A871D642A360098A898 /* Build configuration list for PBXNativeTarget "Highlight_Sync-01" */;
+			buildPhases = (
+				BB5718BB06170AEC9C5ED04E /* [CP] Check Pods Manifest.lock */,
+				CEFD8A5E1D642A360098A898 /* Sources */,
+				CEFD8A5F1D642A360098A898 /* Frameworks */,
+				CEFD8A601D642A360098A898 /* Resources */,
+				D66A67D526C9F4ABCA89BDEE /* [CP] Embed Pods Frameworks */,
+				889AB53385B3A43CCE31449B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Highlight_Sync-01";
+			productName = "JSON_Test-03";
+			productReference = CEFD8A621D642A360098A898 /* Highlight_Sync-01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFD8A721D642A360098A898 /* Highlight_Sync-01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFD8A8A1D642A360098A898 /* Build configuration list for PBXNativeTarget "Highlight_Sync-01Tests" */;
+			buildPhases = (
+				CEFD8A6F1D642A360098A898 /* Sources */,
+				CEFD8A701D642A360098A898 /* Frameworks */,
+				CEFD8A711D642A360098A898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFD8A751D642A360098A898 /* PBXTargetDependency */,
+			);
+			name = "Highlight_Sync-01Tests";
+			productName = "JSON_Test-03Tests";
+			productReference = CEFD8A731D642A360098A898 /* Highlight_Sync-01.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFD8A7D1D642A360098A898 /* Highlight_Sync-01UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFD8A8D1D642A360098A898 /* Build configuration list for PBXNativeTarget "Highlight_Sync-01UITests" */;
+			buildPhases = (
+				CEFD8A7A1D642A360098A898 /* Sources */,
+				CEFD8A7B1D642A360098A898 /* Frameworks */,
+				CEFD8A7C1D642A360098A898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFD8A801D642A360098A898 /* PBXTargetDependency */,
+			);
+			name = "Highlight_Sync-01UITests";
+			productName = "JSON_Test-03UITests";
+			productReference = CEFD8A7E1D642A360098A898 /* Highlight_Sync-01.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFD8A5A1D642A360098A898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ryan Mooney";
+				TargetAttributes = {
+					CEFD8A611D642A360098A898 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CEFD8A721D642A360098A898 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CEFD8A611D642A360098A898;
+					};
+					CEFD8A7D1D642A360098A898 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CEFD8A611D642A360098A898;
+					};
+				};
+			};
+			buildConfigurationList = CEFD8A5D1D642A360098A898 /* Build configuration list for PBXProject "Highlight_Sync-01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFD8A591D642A360098A898;
+			productRefGroup = CEFD8A631D642A360098A898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFD8A611D642A360098A898 /* Highlight_Sync-01 */,
+				CEFD8A721D642A360098A898 /* Highlight_Sync-01Tests */,
+				CEFD8A7D1D642A360098A898 /* Highlight_Sync-01UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFD8A601D642A360098A898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFD8A6A1D642A360098A898 /* Assets.xcassets in Resources */,
+				CEFD8A6D1D642A360098A898 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD8A711D642A360098A898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD8A7C1D642A360098A898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		889AB53385B3A43CCE31449B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highlight_Sync-01/Pods-Highlight_Sync-01-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB5718BB06170AEC9C5ED04E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D66A67D526C9F4ABCA89BDEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highlight_Sync-01/Pods-Highlight_Sync-01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFD8A5E1D642A360098A898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFD8A681D642A360098A898 /* ViewController.swift in Sources */,
+				CE1DC0071D83E58600E9D920 /* DataValues.swift in Sources */,
+				CEFD8A661D642A360098A898 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD8A6F1D642A360098A898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD8A7A1D642A360098A898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFD8A751D642A360098A898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFD8A611D642A360098A898 /* Highlight_Sync-01 */;
+			targetProxy = CEFD8A741D642A360098A898 /* PBXContainerItemProxy */;
+		};
+		CEFD8A801D642A360098A898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFD8A611D642A360098A898 /* Highlight_Sync-01 */;
+			targetProxy = CEFD8A7F1D642A360098A898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEFD8A6B1D642A360098A898 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFD8A6C1D642A360098A898 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFD8A851D642A360098A898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFD8A861D642A360098A898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEFD8A881D642A360098A898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21525E6AA938D2E976144F0 /* Pods-Highlight_Sync-01.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Highlight_Sync-01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanMooney.Highlight-Sync-01";
+				PRODUCT_NAME = "Highlight_Sync-01";
+			};
+			name = Debug;
+		};
+		CEFD8A891D642A360098A898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8377C6410BC706075657003 /* Pods-Highlight_Sync-01.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Highlight_Sync-01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanMooney.Highlight-Sync-01";
+				PRODUCT_NAME = "Highlight_Sync-01";
+			};
+			name = Release;
+		};
+		CEFD8A8B1D642A360098A898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "JSON_Test-03Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanMooney.JSON-Test-03Tests";
+				PRODUCT_NAME = "Highlight_Sync-01";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Highlight_Sync-01.app/Contents/MacOS/Highlight_Sync-01";
+			};
+			name = Debug;
+		};
+		CEFD8A8C1D642A360098A898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "JSON_Test-03Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanMooney.JSON-Test-03Tests";
+				PRODUCT_NAME = "Highlight_Sync-01";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Highlight_Sync-01.app/Contents/MacOS/Highlight_Sync-01";
+			};
+			name = Release;
+		};
+		CEFD8A8E1D642A360098A898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "JSON_Test-03UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanMooney.JSON-Test-03UITests";
+				PRODUCT_NAME = "Highlight_Sync-01";
+				TEST_TARGET_NAME = "JSON_Test-03";
+			};
+			name = Debug;
+		};
+		CEFD8A8F1D642A360098A898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "JSON_Test-03UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RyanMooney.JSON-Test-03UITests";
+				PRODUCT_NAME = "Highlight_Sync-01";
+				TEST_TARGET_NAME = "JSON_Test-03";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFD8A5D1D642A360098A898 /* Build configuration list for PBXProject "Highlight_Sync-01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFD8A851D642A360098A898 /* Debug */,
+				CEFD8A861D642A360098A898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFD8A871D642A360098A898 /* Build configuration list for PBXNativeTarget "Highlight_Sync-01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFD8A881D642A360098A898 /* Debug */,
+				CEFD8A891D642A360098A898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFD8A8A1D642A360098A898 /* Build configuration list for PBXNativeTarget "Highlight_Sync-01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFD8A8B1D642A360098A898 /* Debug */,
+				CEFD8A8C1D642A360098A898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFD8A8D1D642A360098A898 /* Build configuration list for PBXNativeTarget "Highlight_Sync-01UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFD8A8E1D642A360098A898 /* Debug */,
+				CEFD8A8F1D642A360098A898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFD8A5A1D642A360098A898 /* Project object */;
+}
